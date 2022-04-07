@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+
+    <title>PPSU - Why JS?</title>
+    <link
+      href="node_modules/@fortawesome/fontawesome-free/css/fontawesome.css"
+      rel="stylesheet"
+    />
+    <link
+      href="node_modules/@fortawesome/fontawesome-free/css/brands.css"
+      rel="stylesheet"
+    />
+    <link
+      href="node_modules/@fortawesome/fontawesome-free/css/solid.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="dist/reset.css" />
+    <link rel="stylesheet" href="dist/reveal.css" />
+    <link rel="stylesheet" href="dist/theme/moon.css" />
+
+    <!-- Theme used for syntax highlighted code -->
+    <link rel="stylesheet" href="plugin/highlight/monokai.css" />
+
+    <style>
+      .text-ps {
+        font-size: 0.25em;
+      }
+
+      .text-ps a {
+        color: inherit;
+        text-decoration: underline;
+        font-style: italic;
+      }
+
+      .list-style-none {
+        list-style: none;
+      }
+      .do-it {
+        margin-top: 160px;
+      }
+      .do-it li {
+        font-size: 0.8em;
+      }
+
+      p.text {
+        font-size: 00.5em;
+        text-align: justify;
+        line-height: normal;
+        padding: 0px 50px;
+      }
+
+      .history {
+        margin-top: 50px;
+      }
+
+      #howJs > section {
+        margin-top: 30px;
+      }
+
+      .feedback-img-holder {
+        display: flex;
+        align-items: center;
+        justify-items: center;
+        justify-content: space-around;
+      }
+
+      #whoAmI > section {
+        margin-top: 50px;
+      }
+
+      #whoAmI > section > p i,
+      #whoAmI > section > p a {
+        color: var(--r-heading-color);
+      }
+
+      #whoAmI > section > p a {
+        cursor: pointer;
+      }
+
+      #whoAmI > section > p a:hover {
+        text-decoration: underline;
+      }
+      .do-it {
+        /* align-items: center; */
+      }
+    </style>
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides">
+        <section id="welcome">
+          <h2 class="r-fit-text">HELLO 👋</h2>
+        </section>
+        <section id="whoAmI">
+          <h1>Who am I?</h1>
+          <section>
+            <h3 class="fragment fade-right">Swaraj Panigrahi</h3>
+            <p class="fragment fade-in">
+              10 Years of experience building web apps using HTML/CSS/JS.
+            </p>
+            <ul class="list-style-none">
+              <li class="fragment fade-left">Engineer</li>
+              <li class="fragment fade-left">Reader</li>
+              <li class="fragment fade-left">Teacher</li>
+              <li class="fragment fade-left">.... And More</li>
+            </ul>
+          </section>
+          <section>
+            <p>
+              <a href="https://github.com/swaraj89"
+                ><i class="fa-brands fa-github"></i>/swaraj89</a
+              >
+            </p>
+            <p>
+              <a href="https://www.linkedin.com/in/panigrahiswaraj/"
+                ><i class="fa-brands fa-linkedin-in"></i>/panigrahiswaraj</a
+              >
+            </p>
+            <p>
+              <a href="https://swarajpanigrahi.in"
+                ><i class="fa-solid fa-paper-plane-top"></i
+                >swarajpanigrahi.in</a
+              >
+            </p>
+          </section>
+        </section>
+        <section id="whyJs">
+          <h1>Why JS?</h1>
+          <section>
+            <div class="fragment fade-in">
+              <h1>1.5 BILLION<sup>*</sup></h1>
+              <p>Active Websites</p>
+            </div>
+          </section>
+          <section>
+            <div class="fragment fade-in">
+              <div class="r-stack">
+                <img src="./images/avg-salary.png" width="450" height="300" />
+              </div>
+            </div>
+          </section>
+          <section>
+            <img src="./images/money.jpg" width="450" height="300" />
+          </section>
+          <section>
+            <h3>Where is JS used?</h3>
+            <div>
+              <ul class="list-style-none">
+                <li class="fragment fade-in">Client Side</li>
+                <li class="fragment fade-in">Server Side</li>
+                <li class="fragment fade-in">Mobile Apps</li>
+                <li class="fragment fade-in">Blockchain</li>
+              </ul>
+            </div>
+          </section>
+          <section>
+            <div class="do-it fragment fade-in">
+              <h3 class="highlight-blue">Do it, to believe it!</h3>
+              <ul class="do-it fragment fade-in">
+                <li>Open Chrome dev tools</li>
+                <li>Press Control+shift+P</li>
+                <li>
+                  Type javascript
+                  <div>
+                    <img src="./images/disable-js.png" height="300" />
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <aside class="notes">Inform audience not to try now.</aside>
+          </section>
+        </section>
+        <section id="whatJs">
+          <h1>What is Javascript?</h1>
+          <section>
+            <div class="fragment fade-in">
+              <p class="text">
+                JavaScript (/ˈdʒɑːvəskrɪpt/), often abbreviated JS, is a
+                <u>programming language</u> that is one of the core technologies
+                of the World Wide Web, alongside HTML and CSS.
+                <u>Over 97%</u> of websites use JavaScript on the client side
+                for web page behavior, often incorporating third-party
+                libraries. All major web browsers have a dedicated JavaScript
+                engine to execute the code on users' devices.
+              </p>
+            </div>
+          </section>
+          <section>
+            <pre>
+				<code class="html" data-trim data-line-numbers>
+					alert("Hello World!")
+				</code>
+			</pre>
+          </section>
+          <section class="history">
+            <h3>History</h3>
+            <p class="fragment slide-in">Started in December 4, 1995</p>
+            <p class="fragment slide-in">Netscape Browser</p>
+            <p class="fragment slide-in">1996, IE3.0, Jscript</p>
+            <p class="fragment slide-in">2004 - Mozilla Enters</p>
+            <p class="fragment slide-in">2008 - Chrome Debuts, V8 Engine</p>
+            <aside class="notes">
+              <ol>
+                <li>Name of javascript trivia. why javascript was named?</li>
+                <li>Sundar Pichai led Chrome development</li>
+              </ol>
+            </aside>
+          </section>
+        </section>
+        <section id="howJs">
+          <h1>Under The Hood</h1>
+          <p class="fragment slide-in">Browser Fundamentals</p>
+          <aside class="notes">
+            We will cover browser basics. Understand whats under the hood.
+          </aside>
+        </section>
+        <section>
+          <img src="./images/layers.png" width="450" height="300" />
+        </section>
+        <section id="whatNext">
+          <h1>Roadmap</h1>
+          <ul class="list-style-none">
+            <li class="fragment fade-right">Learn Web fundamentals</li>
+            <li class="fragment fade-right">Learn HTML & CSS</li>
+            <li class="fragment fade-right">Learn Javascript</li>
+            <li class="fragment fade-right">
+              Learn a Framework (jQuery, React, Angular, Vue etc.)
+            </li>
+            <li class="fragment fade-right">Learn Server Side JavaScript</li>
+          </ul>
+        </section>
+        <section id="resources">
+          <h1>Resources</h1>
+          <ul class="list-style-none">
+            <li class="fragment fade-left">
+              <a
+                href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide"
+                >MDN</a
+              >
+            </li>
+            <li class="fragment fade-left">
+              <a href="https://www.youtube.com/watch?v=hdI2bqOjy3c"
+                >Youtube Crash Course</a
+              >
+            </li>
+            <li class="fragment fade-left">
+              <a
+                href="https://www.html5rocks.com/en/tutorials/internals/howbrowserswork/"
+                >How Browsers work?</a
+              >
+            </li>
+            <li class="fragment fade-left">
+              <a href="https://dev.to/swrjp">Swaraj Panigrahi JS blogs</a>
+            </li>
+          </ul>
+        </section>
+        <section id="qna">
+          <h2 class="r-fit-text">Questions 💡</h2>
+        </section>
+        <section id="feedback">
+          <h2 class="r-fit-text">Feedback Time</h2>
+          <div class="feedback-img-holder">
+            <img
+              class="fragment fade-right"
+              src="./images/feedback.webp"
+              width="450"
+              height="300"
+            />
+            <a href="https://bit.ly/3jcO6BN" class="fragment fade-down"
+              ><img src="./images/feedback-qr.png"
+            /></a>
+          </div>
+          <aside class="notes">
+            <ol>
+              <li>Request for feedback</li>
+              <li>Reveal about how the slides were made.</li>
+            </ol>
+          </aside>
+        </section>
+        <section id="welcome">
+          <h2 class="r-fit-text">Thank You ✌️</h2>
+          <p>
+            Say
+            <a href="mailto:hello@swarajpanigrahi.in"
+              >hello@swarajpanigrahi.in</a
+            >
+          </p>
+        </section>
+      </div>
+    </div>
+
+    <script src="dist/reveal.js"></script>
+    <script src="plugin/notes/notes.js"></script>
+    <script src="plugin/markdown/markdown.js"></script>
+    <script src="plugin/highlight/highlight.js"></script>
+    <script>
+      // More info about initialization & config:
+      // - https://revealjs.com/initialization/
+      // - https://revealjs.com/config/
+      Reveal.initialize({
+        hash: true,
+        // Learn about plugins: https://revealjs.com/plugins/
+        plugins: [RevealMarkdown, RevealHighlight, RevealNotes],
+      });
+    </script>
+  </body>
+</html>
